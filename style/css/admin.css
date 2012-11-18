@@ -1,0 +1,58 @@
+@CHARSET "UTF-8";
+.project_single{
+	text-align:left;
+	font-size:14px;
+	height:25px;
+	line-height:25px;
+	margin:10px 0 0 20px;
+	padding: 0 0 0 5px;
+	border-bottom:1px solid #DDDDDD
+}
+.project_single .title{
+	width:400px;
+}
+.project_single .tools{
+	width:50px;
+}
+.scene_single{
+	text-align:left;
+	font-size:14px;
+	height:100px;
+	padding: 0 0 0 5px;
+	margin:10px 0 0 20px;
+	border-bottom:1px solid #DDDDDD
+}
+.scene_single .previe_img{
+	float:left;
+	width:200px;
+	height:100px;
+}
+.scene_single .scene_title{
+	float:left;
+	width:400px;
+	margin:0 0 0 10px;
+}
+.scene_single .title_line{
+	
+}
+.scene_single .scene_desc{
+	margin:5px 0 0 0;
+	padding:5px;
+	border:1px dashed #DDDDDD;
+}
+.save_project_filed{
+	width:440px;
+	text-algin:center;
+	margin:0 auto;
+}
+.save_project_filed .control-label{
+	width:80px;
+}
+.save_project_filed .form-actions{
+	text-align:left;
+}
+
+
+
+
+

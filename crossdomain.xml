@@ -1,0 +1,4 @@
+<cross-domain-policy>
+    <allow-access-from domain="*.wbli.dev.aifang.com" />
+    <allow-access-from domain="*.yiluhao.com" />
+</cross-domain-policy>

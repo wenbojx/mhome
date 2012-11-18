@@ -1,0 +1,6 @@
+<?php
+
+$yiic=dirname(__FILE__).'/../framework/yiic.php';
+$config=dirname(__FILE__).'/config/console.php';
+@putenv('YII_CONSOLE_COMMANDS='. dirname(__FILE__).'/commands' );
+require_once($yiic);

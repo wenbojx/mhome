@@ -1,0 +1,283 @@
+@CHARSET "UTF-8";
+.container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
+    /* width: 921px; */
+    /* width: 1024px; */
+}
+.hero-unit{
+    margin-bottom:10px;
+    margin-top:60px;
+    position:relative;
+}
+.display_none{
+    display:none;
+}
+.span4 {
+    width: 370px;
+}
+.padding40{
+    padding:40px 0 40px 40px;
+}
+.padding5{
+	padding:5px;
+}
+.container h1{
+    font-size:45px;
+}
+.clear{
+    clear:both;
+}
+
+/* Faded out hr */
+hr.soften {
+  height: 1px;
+  margin: 20px 0;
+  background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+  background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+  background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+  background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+  border: 0;
+}
+.bold{
+    font-weight:bold;
+}
+.font-size14{
+    font-size:14px;
+}
+.case h1{
+    text-align:center;
+}
+.case .case-byline{
+    height:20px;
+}
+.case .thumbnail {
+    text-align:center; margin-top:10px;
+}
+.case .thumbnail a{
+    display:block;margin:4px 0;
+}
+.hero-unit p{
+    margin:5px 15px 10px 0; float:right;
+}
+.list .hero-unit{
+    padding:20px;
+}
+.project .thumbnail{
+    margin:5px 0;text-align:center;
+}
+.project .thumbnail a{
+    display:block;margin:4px 0;
+}
+.project hr{
+    margin:10px 0;
+}
+.view .hero-unit{
+    padding:20px;
+}
+.view .line3{
+    margin:10px 0 ;
+}
+.detail .hero-unit{
+    padding:20px;
+}
+.margin-top10{
+    margin:10px 0 0 0;
+}
+.margin-top15{
+    margin:15px 0 0 0;
+}
+.margin-top5{
+    margin:7px 0 0 0;
+}
+.margin-top55{
+    margin:55px 0 10px 0;
+}
+.margin-tb5{
+    margin:5px 0;
+}
+.margin-tb10{
+    margin:10px 0;
+}
+.align-center{
+    text-align:center;
+}
+.pano-detail{
+    width:100%; height:460px; margin:0 auto;position:relative;
+}
+.mini-layout{
+    border: 1px solid #DDDDDD;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075);
+}
+.color_red{
+    color:red;
+}
+.detail .thumbnail{
+    text-align:center;
+}
+.detail .thumbnail button{
+    margin:0 0 8px 0;
+}
+.breadcrumb{
+	margin:0 0 10px;
+	padding: 5px 14px;
+}
+.scroll_pano_container{
+	dispaly:none;
+	position:absolute; 
+	left:0px; 
+	top:0px; 
+	height:458px;
+}
+.scroll_pano_opacity{
+	display:none;
+	width:210px;
+	border: 1px solid #DDDDDD;
+	filter: alpha(opacity=30); 
+	opacity: 0.3;
+	background:#DDDDDD;
+}
+.scroll_pano_detail{
+	display:none;
+}
+.scroll_pano{
+	z-index:99;
+	width:200px;
+	margin:0 0 0 5px;
+}
+.jCarouselLite{
+	visibility: visible; 
+	overflow: hidden; 
+	position: relative; 
+	left: 0px;
+}
+.jCarouselLite ul{
+	margin: 0px; 
+	padding: 0px; 
+	position: relative; 
+	list-style-type: none; 
+	left: 0px;
+}
+.jCarouselLite li{
+	text-align:center;
+	overflow: hidden; 
+	float: none; 
+	height:100px;
+	padding:4px 0;
+}
+.pano_next{
+	height:14px;
+	background:#E6E6E6;
+	cursor:pointer;
+}
+.pano_prev{
+	height:14px;
+	background:#E6E6E6;
+	cursor:pointer;
+}
+.scroll_close{
+	position:absolute;
+	left:205px;
+	top:225px;
+	cursor:pointer;
+	display:none;
+}
+.scroll_open{
+	position:absolute;
+	left:205px;
+	top:225px;
+	display:none;
+	cursor:pointer;
+}
+.pano-detail .vertical{
+	vertical-align:text-bottom;
+}
+
+.pano_loading {
+	display:none;
+    position:absolute; 
+    width:60px;
+    height:60px;
+}
+.hotspot_loading {
+	display:none;
+    position:absolute; 
+    width:30px;
+    height:30px;
+}
+.float_left{
+	float:left;
+}
+.float_right{
+	float:right;
+}
+
+.color_red{
+	color:red;
+})
+.banner_box{
+	position:relative;
+}
+.banner_box .r_bottom{
+	position:absolute;
+	bottom:5px;
+	right:5px;
+}
+.banner_box .r_top{
+	position:absolute;
+	top:5px;
+	right:5px;
+}
+.banner_box .r_index{
+	position:absolute;
+	top:5px;
+	right:5px;
+	
+}
+.color_blue{
+	
+}
+.banner_box a{
+	color:#FFFFFF;
+	font-weight:bold;
+}
+
+
+.index_banner{
+	width:930px;
+	height:200px;
+}
+.index_banner .click{
+	font-size:30px;
+	font-weight:bold;
+	color:#FFFFFF;
+	text-align:center;
+	padding:20px 0 0 0;
+	cursor:pointer;
+}
+.index_banner .tips{
+	font-size:16px;
+	font-weight:bold;
+	color:#FFFFFF;
+	text-align:center;
+	padding:10px 0 0 0;
+}
+.list_title .title{
+	width:400px;
+}
+.list_title .title span{
+	font-size:14px;
+	color:#999999;
+}
+.list_title .info{
+	font-size:12px;
+	line-height:27px;
+}
+ul.yiiPager .page a{
+	padding:1px 12px;
+}
+ul.yiiPager{
+	font-size:12px;
+}
+.pagination{
+	text-align:right;
+}

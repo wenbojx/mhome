@@ -1,0 +1,15 @@
+.buildpath
+.git/
+.project
+.settings/
+assets/
+themes/classic/views/
+protected/runtime/*.log
+protected/runtime/application.*
+protected/config/*.php
+protected/runtime/
+protected/runtime/*.*
+protected/config/*.php
+upload/
+html/phpmyadmin
+html/phpmyadmin.tar.gz

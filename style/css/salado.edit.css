@@ -1,0 +1,129 @@
+@CHARSET "UTF-8";
+.pano-detail{
+	position:relative;
+}
+.edit_box{
+   height:300px;
+}
+.edit_relative{
+    position:relative; width:50px;
+}
+
+.edit_box .edit_buttons{
+    position:absolute; right:0px ;top:0px;
+}
+.edit_panel{
+    position:absolute; right:80px; top:0px;display:none;
+}
+.panel_box{
+    border:8px solid #F5F5F5;background-color:#FFFFFF;
+}
+.panel_box_content{
+	
+}
+.panel_title{
+	background-color:#84868C;
+	padding:4px;
+	position:relative;
+	height:16px;
+}
+
+.panel_box_content .title-bar{
+	color:#FFFFFF;
+	font-size:14px;
+	font-weight:bold;
+	line-height:16px;
+	text-align:left;
+}
+.title-bar .label-warning{
+	font-size:14px;
+	cursor:pointer;
+}
+.title-bar .title_tip{
+	position:absolute;
+	right:40px;
+	top:5px;
+}
+.panel_box_content .panel_close{
+	color:#FFFFFF;
+	font-size:14px;
+	font-weight:bold;
+	line-height:16px;
+	position:absolute;
+	cursor:pointer;
+	right:6px;
+	top:4px;
+}
+
+.panle_content{
+	margin:10px;
+}
+.panel_form .control-label{
+	width:55px;
+}
+.panel_form .controls{
+	margin-left:70px;
+}
+.panel_form select{
+	width:150px;
+}
+.panel_form .control-group{
+	margin-bottom:10px;
+}
+.hotspot_save_btn{
+	margin:0 0 0 10px;
+	text-align:left;
+}
+.hotspot_icon {
+	display:none;
+    position:absolute; 
+    width:20px;
+    height:20px;
+}
+
+.scene_detail_save{
+	color:#FFFFFF;
+}
+
+.box_open{
+    position:relative;
+    width:485px;
+    heigth:365px;
+    margin:0;
+    display:block;
+}
+.box_open .box_side{
+    width:120px;
+    height:120px;
+    position:absolute;
+    background-color:#F3F3F3;
+}
+.box_open .box_left{
+    top:121px;
+}
+.box_open .box_down{
+    top:121px;
+    left:121px;
+}
+.box_open .box_right{
+    top:121px;
+    left:242px;
+}
+.box_open .box_up{
+    top:121px;
+    left:363px;
+}
+.box_open .box_front{
+    left:121px;
+}
+.box_open .box_back{
+    top:242px;
+    left:121px;
+}
+.hotspot_save_btn select{
+	width:80px;
+}
+form{
+	margin:0;
+}
+
